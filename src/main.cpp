@@ -32,8 +32,9 @@ int main() {
     // set labels and funds for agents within house
     for (int i = 0; i < NAGENT; i++){
     	house[i].SetID(i); 
-        house[i].SetFund(100 + dist(gen));
+        house[i].SetFund(200 + dist(gen));
      }
+
 
     // Loop over agents 
     for (int i = 0; i < NAGENT; i++) {
